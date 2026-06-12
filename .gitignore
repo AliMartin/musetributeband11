@@ -25,6 +25,7 @@
 /sites/*/translations
 /sites/*/tmp
 /sites/*/cache
+/tmp
 
 # Ignore testing related files
 /sites/simpletest
