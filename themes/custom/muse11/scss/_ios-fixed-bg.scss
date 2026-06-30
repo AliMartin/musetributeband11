@@ -1,0 +1,59 @@
+/* ios-fixed-bg.css */
+
+/* Ensure the browser canvas behind everything isn't white */
+html.ios-fixed-bg,
+html.ios-fixed-bg body {
+  background-color: #000 !important; /* pick a sensible fallback */
+}
+
+/* Stop iOS/mmenu wrappers from painting their own backgrounds */
+html.ios-fixed-bg body,
+html.ios-fixed-bg .mm-page,
+html.ios-fixed-bg .mm-wrapper,
+html.ios-fixed-bg .mm-wrapper_background,
+html.ios-fixed-bg .mm-wrapper_background body {
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+/* Faux fixed background lives on <html> */
+html.ios-fixed-bg {
+  position: relative;
+}
+
+html.ios-fixed-bg::before {
+  content: "";
+  position: fixed;
+
+  /* Oversize to cover iOS rubber-band + dynamic toolbars + safe area */
+  top: -25vh;
+  left: 0;
+  right: 0;
+  bottom: calc(-25vh - env(safe-area-inset-bottom));
+
+  background-color: var(--ios-bg-color, #000);
+  background-image: var(--ios-bg-image, none);
+  background-repeat: var(--ios-bg-repeat, no-repeat);
+  background-position: var(--ios-bg-position, center top);
+  background-size: var(--ios-bg-size, cover);
+
+  pointer-events: none;
+
+  /* KEY CHANGE: no negative z-index */
+  z-index: 0;
+}
+
+/* Lift your actual page content above the faux background */
+html.ios-fixed-bg body,
+html.ios-fixed-bg .mm-page {
+  position: relative;
+  z-index: 1;
+}
+
+/* Make sure wrappers reach viewport height */
+html.ios-fixed-bg,
+html.ios-fixed-bg body,
+html.ios-fixed-bg .mm-page {
+  min-height: 100vh;
+  min-height: 100svh;
+}
