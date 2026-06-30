@@ -16422,6 +16422,8 @@ form {
 }
 #klaro .label.cm-list-label {
   min-height: 20px;
+  text-align: left;
+  margin-bottom: 0;
 }
 #klaro button.hide {
   background-color: #08080a;
