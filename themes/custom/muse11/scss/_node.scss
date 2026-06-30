@@ -1,3 +1,16 @@
+// Background images
+// iPhone fix
+// https://css-tricks.com/the-fixed-background-attachment-hack/
+.wallpaper-container {
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
 .mm-page,
 .mm-wrapper_background body {
   background-color: initial;
