@@ -1,6 +1,7 @@
 // Background images
 // iPhone fix
 // https://css-tricks.com/the-fixed-background-attachment-hack/
+/*
 .wallpaper-container {
   background-repeat: no-repeat;
   background-position: top center;
@@ -10,6 +11,16 @@
   width: 100%;
   z-index: -1;
 }
+*/
+
+body {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  min-height: 100dvh; // accounts for iOS Safari's collapsing toolbar
+}
+
 
 .mm-page,
 .mm-wrapper_background body {
