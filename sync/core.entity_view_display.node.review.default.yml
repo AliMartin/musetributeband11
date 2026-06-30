@@ -4,13 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.node.review.body
-    - field.field.node.review.field_wallpaper
-    - image.style.wallpaper
     - node.type.review
   module:
-    - background_image_formatter
+    - manage_display
     - text
-    - user
 id: node.review.default
 targetEntityType: node
 bundle: review
@@ -23,20 +20,20 @@ content:
     third_party_settings: {  }
     weight: 101
     region: content
-  field_wallpaper:
-    type: background_image_formatter
-    label: hidden
-    settings:
-      image_style: wallpaper
-      background_image_output_type: css
-      background_image_selector: .wallpaper-container
-    third_party_settings: {  }
-    weight: 0
-    region: content
   links:
     settings: {  }
     third_party_settings: {  }
     weight: 100
     region: content
+  title:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: false
+      tag: h1
+    third_party_settings: {  }
+    weight: -49
+    region: content
 hidden:
-  langcode: true
+  created: true
+  uid: true

@@ -1,0 +1,15 @@
+uuid: b16d91b6-2336-4eab-a051-80ce949eb96f
+langcode: en-gb
+status: true
+dependencies: {  }
+name: background_mobile
+label: 'Background - mobile'
+effects:
+  d02a16b8-6218-48fa-b8c3-4ba22ac6ff54:
+    uuid: d02a16b8-6218-48fa-b8c3-4ba22ac6ff54
+    id: image_scale
+    weight: 1
+    data:
+      width: 360
+      height: 800
+      upscale: false

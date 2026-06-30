@@ -1,0 +1,23 @@
+uuid: 99da54b1-2502-446a-85f3-a6d13283276b
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ae4774e9-bf23-4f03-b173-498bf22dba17'
+  module:
+    - block_content
+  theme:
+    - muse11
+id: muse11_sitemap
+theme: muse11
+region: footer
+weight: -3
+provider: null
+plugin: 'block_content:ae4774e9-bf23-4f03-b173-498bf22dba17'
+settings:
+  id: 'block_content:ae4774e9-bf23-4f03-b173-498bf22dba17'
+  label: Sitemap
+  label_display: '0'
+  provider: block_content
+  view_mode: full
+visibility: {  }

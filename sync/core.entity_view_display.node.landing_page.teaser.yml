@@ -7,7 +7,6 @@ dependencies:
     - field.field.node.landing_page.body
     - field.field.node.landing_page.field_meta_tags
     - field.field.node.landing_page.field_metatags
-    - field.field.node.landing_page.field_wallpaper
     - field.field.node.landing_page.field_yoast_seo
     - node.type.landing_page
   module:
@@ -34,6 +33,4 @@ content:
 hidden:
   field_meta_tags: true
   field_metatags: true
-  field_wallpaper: true
   field_yoast_seo: true
-  langcode: true

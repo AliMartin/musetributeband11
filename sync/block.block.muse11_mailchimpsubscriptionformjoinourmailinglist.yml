@@ -1,0 +1,25 @@
+uuid: 1a8697d1-1086-46ad-a3cb-fc9a1db0d3df
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - mailchimp_signup
+    - system
+  theme:
+    - muse11
+id: muse11_mailchimpsubscriptionformjoinourmailinglist
+theme: muse11
+region: content
+weight: -2
+provider: null
+plugin: 'mailchimp_signup_subscribe_block:join_our_mailing_list'
+settings:
+  id: 'mailchimp_signup_subscribe_block:join_our_mailing_list'
+  label: 'Join our mailing list'
+  label_display: visible
+  provider: mailchimp_signup
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

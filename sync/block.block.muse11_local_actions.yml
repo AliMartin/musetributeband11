@@ -1,0 +1,20 @@
+uuid: 44eb75eb-1bd4-4b80-8121-e3e9437ade1c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - muse11
+_core:
+  default_config_hash: YxPALEFklU59sa_VCxu9GH6lAC1DLNjKSY-qF-diJDc
+id: muse11_local_actions
+theme: muse11
+region: content
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

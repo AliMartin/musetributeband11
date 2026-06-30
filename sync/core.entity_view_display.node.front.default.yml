@@ -9,9 +9,9 @@ dependencies:
     - field.field.node.front.field_yoast_seo
     - node.type.front
   module:
+    - manage_display
     - metatag
     - text
-    - user
     - yoast_seo
 id: node.front.default
 targetEntityType: node
@@ -51,5 +51,15 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
+  title:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: false
+      tag: h1
+    third_party_settings: {  }
+    weight: -49
+    region: content
 hidden:
-  langcode: true
+  created: true
+  uid: true

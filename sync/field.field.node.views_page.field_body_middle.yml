@@ -1,0 +1,22 @@
+uuid: 11f23cad-4f45-4e5f-9851-f5847f80b071
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_body_middle
+    - node.type.views_page
+  module:
+    - text
+id: node.views_page.field_body_middle
+field_name: field_body_middle
+entity_type: node
+bundle: views_page
+label: 'Body middle'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

@@ -1,0 +1,29 @@
+uuid: 4d54ed08-61b8-464d-a952-090a389beaff
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - views.view.shows
+  module:
+    - system
+    - views
+  theme:
+    - muse11
+id: muse11_views_block__shows_block_2
+theme: muse11
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:shows-block_2'
+settings:
+  id: 'views_block:shows-block_2'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: null
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

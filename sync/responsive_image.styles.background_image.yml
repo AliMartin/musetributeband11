@@ -1,0 +1,55 @@
+uuid: d6fbfa72-c6db-4228-aa2b-e560fa53edf7
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - image.style.background_desktop
+    - image.style.background_mobile
+    - image.style.background_tablet
+  theme:
+    - muse11
+id: background_image
+label: 'Background image'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: '_original image_'
+    breakpoint_id: muse11.screen.xxl-min
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: '_original image_'
+    breakpoint_id: muse11.screen.xxl-min
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: background_desktop
+    breakpoint_id: muse11.screen.xl-max
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: background_desktop
+    breakpoint_id: muse11.screen.xl-max
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: background_tablet
+    breakpoint_id: muse11.screen.md-max
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: background_tablet
+    breakpoint_id: muse11.screen.md-max
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: background_mobile
+    breakpoint_id: muse11.screen.xs-max
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: background_mobile
+    breakpoint_id: muse11.screen.xs-max
+    multiplier: 2x
+breakpoint_group: muse11.screen
+fallback_image_style: background_desktop

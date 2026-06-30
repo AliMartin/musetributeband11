@@ -1,0 +1,44 @@
+#klaro {
+  #klaro-cookie-notice,
+  .cm-modal {
+    border: 5px solid $black;
+    border-radius: 0;
+    box-shadow: inherit;
+    outline: inherit;
+
+    a.cn-learn-more {
+      text-transform: uppercase;
+      text-decoration: underline;
+      outline: none;
+    }
+
+    .cn-buttons button {
+      width: inherit;
+    }
+  }
+
+  .slider {
+    background-color: $black;
+  }
+
+  .cookie-modal .cm-list-description,
+  .context-notice .cm-list-description,
+  .cookie-notice .cm-list-description {
+    font-size: 0.85em;
+    padding: 0;
+  }
+
+  .label.cm-list-label {
+    min-height: 20px;
+  }
+
+  button.hide {
+    background-color: $black;
+    border-radius: 50%;
+    outline: inherit;
+
+    svg {
+      stroke: $white;
+    }
+  }
+}

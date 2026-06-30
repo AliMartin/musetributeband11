@@ -1,0 +1,221 @@
+.mm-page,
+.mm-wrapper_background body {
+  background-color: initial;
+}
+
+
+// Main content panel
+body .region-content {
+  margin: 30vh auto 120px auto;
+  max-width: 850px;
+  background-color: rgba(0,0,0,0.5);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  padding: 30px 30px 90px 30px;
+  border-radius: 15px;
+  border: 1px solid rgba(255,255,255,0.25);
+  font-size: 1.2rem;
+  text-align: left;
+
+  #block-muse11-page-title {
+    display: none;
+  }
+
+  .field--name-field-media-image {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: $border-radius;
+    }
+  }
+
+  .field--name-field-image .field--name-field-media-image {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+
+  .field--name-title {
+    h1 {
+      line-height: 1.2;
+      margin-bottom: 15px;
+    }
+  }
+
+  .field--name-body {
+    > p:first-of-type {
+    font-size: 1.3em;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    font-weight: $font-weight-bold;
+    }
+  }
+
+  h2,
+  h3 {
+    margin: 30px 0 15px 0;
+  }
+
+  blockquote {
+    position: relative;
+    margin: 2rem 0;
+    padding: 1.5rem 1.75rem 1.5rem 2rem;
+    border-left: 4px solid $white;
+    font-size: 1.25rem;
+    // line-height: 1.5;
+    font-style: italic;
+
+    &::before {
+      content: "“";
+      position: absolute;
+      top: -0.35rem;
+      left: 0.75rem;
+      font-size: 4rem;
+      line-height: 1;
+      font-weight: 700;
+      color: $white;
+      font-style: normal;
+    }
+
+    p {
+      position: relative;
+      line-height: 1.35;
+      margin: 0;
+      z-index: 1;
+    }
+
+    footer {
+      font-size: 1.1rem;
+      line-height: 1.4;
+      font-style: normal;
+      font-weight: 600;
+      padding: 0;
+
+      p {
+        margin: 0;
+      }
+
+      &::before {
+        content: "— ";
+      }
+    }
+  }
+}
+
+
+// Views landing page overrides
+body.page-node-type-views-page .region-content {
+  margin: 0 auto 120px auto;
+  max-width: 1400px;
+  background-color: inherit;
+  -webkit-backdrop-filter: inherit;
+  backdrop-filter: inherit;
+  padding: inherit;
+  border-radius: inherit;
+  border: inherit;
+  text-align: center;
+
+  .field--name-title,
+  .field--name-body,
+  .field--name-field-body-bottom {
+    background-color: rgba(0,0,0,0.5);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+  }
+
+  .field--name-title {
+    border-radius: 15px 15px 0 0;
+    border-left: 1px solid rgba(255,255,255,0.25);
+    border-top: 1px solid rgba(255,255,255,0.25);
+    border-right: 1px solid rgba(255,255,255,0.25);
+    padding: 30px 30px 0 30px;
+
+    h1 {
+      margin: 0;
+    }
+  }
+
+  .field--name-body {
+    border-radius: 0 0 15px 15px;
+    border-left: 1px solid rgba(255,255,255,0.25);
+    border-bottom: 1px solid rgba(255,255,255,0.25);
+    border-right: 1px solid rgba(255,255,255,0.25);
+    padding: 30px 30px 30px 30px;
+    margin-bottom: 30px;
+  }
+
+  .field--name-field-body-bottom {
+    border-radius: 15px;
+    border: 1px solid rgba(255,255,255,0.25);
+    padding: 30px 30px 30px 30px;
+
+    h2 {
+      margin-top: 0;
+    }
+  }
+}
+
+
+
+// Gallery page overrides
+body.page-node-type-gallery .region-content {
+  margin: 0 auto 120px auto;
+
+  h1 {
+    text-align: center;
+    line-height: 1.1;
+    margin-bottom: 30px;
+  }
+
+  .slick--optionset--thumbnails {
+    margin-bottom: 30px;
+  }
+}
+
+.slick-arrow::before {
+  color: $white;
+}
+
+.slick-arrow:hover::before {
+  color: $lilac;
+}
+
+
+
+// Video, Media and Gallery page overrides
+body.page-node-type-views-page.page-url-shows,
+body.page-node-type-views-page.page-url-gallery,
+body.page-node-type-views-page.page-url-media,
+body.page-node-type-views-page.page-url-video {
+  .region-content {
+
+    .field--name-title {
+      border-radius: inherit;
+      border-left: none;
+      border-top: none;
+      border-right: none;
+      padding: none;
+      background-color: inherit;
+      -webkit-backdrop-filter: inherit;
+      backdrop-filter: inherit;
+      margin-bottom: 30px;
+    }
+
+    .field--name-field-body-middle {
+      margin-bottom: 30px;
+    }
+
+    .field--name-field-body-bottom {
+      max-width: 850px;
+      margin: 0 auto;
+
+      > p:first-of-type {
+        font-size: 1.3em;
+        line-height: 1.2;
+        margin-bottom: 15px;
+        font-weight: $font-weight-bold;
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+uuid: c04e6e0a-b1cc-4320-9ad8-799810ac0a98
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - muse11
+_core:
+  default_config_hash: KrQsxSBkX3jLMMUsV2TMTL_wFkhSQxIYYMjOJij4EMo
+id: muse11_content
+theme: muse11
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

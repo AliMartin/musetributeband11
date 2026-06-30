@@ -1,0 +1,23 @@
+uuid: 415bdd6b-4521-47c3-9cd7-67ffbf256d8b
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5954fd60-392f-4472-904d-fced723349df'
+  module:
+    - block_content
+  theme:
+    - muse11
+id: muse11_ultraluminal
+theme: muse11
+region: footer
+weight: -4
+provider: null
+plugin: 'block_content:5954fd60-392f-4472-904d-fced723349df'
+settings:
+  id: 'block_content:5954fd60-392f-4472-904d-fced723349df'
+  label: Ultraluminal
+  label_display: '0'
+  provider: block_content
+  view_mode: full
+visibility: {  }

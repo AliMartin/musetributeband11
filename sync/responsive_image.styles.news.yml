@@ -1,0 +1,20 @@
+uuid: 6094b05c-eaca-44cd-996b-61d37ce91cdf
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - image.style.400x250
+    - image.style.800x500
+id: news
+label: News
+image_style_mappings:
+  -
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: '(min-width:768px)'
+      sizes_image_styles:
+        - 800x500
+    breakpoint_id: responsive_image.viewport_sizing
+    multiplier: 1x
+breakpoint_group: responsive_image
+fallback_image_style: 400x250

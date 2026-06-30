@@ -1,0 +1,15 @@
+uuid: 81eee9fe-8735-495b-a2f0-a8c990f69cae
+langcode: en-gb
+status: true
+dependencies: {  }
+name: background_tablet
+label: 'Background - tablet'
+effects:
+  4f485c09-a701-4c8b-a6f7-3aedb3bef46c:
+    uuid: 4f485c09-a701-4c8b-a6f7-3aedb3bef46c
+    id: image_scale
+    weight: 1
+    data:
+      width: 768
+      height: 1024
+      upscale: false

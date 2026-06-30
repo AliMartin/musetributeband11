@@ -1,0 +1,23 @@
+uuid: cfd38a9f-6115-4755-a727-eb377bb53b2b
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - muse11
+id: muse11_sitebranding
+theme: muse11
+region: nav_branding
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

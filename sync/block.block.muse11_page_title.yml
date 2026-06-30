@@ -1,0 +1,20 @@
+uuid: 3b970a67-7baa-4d3c-be4d-fffb9c482502
+langcode: en
+status: true
+dependencies:
+  theme:
+    - muse11
+_core:
+  default_config_hash: 9SPB7D0Y-c__e2Pd7Sz1E27KopjWu7x77kpHH77BGxY
+id: muse11_page_title
+theme: muse11
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

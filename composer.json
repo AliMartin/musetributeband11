@@ -18,12 +18,12 @@
         "composer/installers": "^2.0",
         "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.6",
-        "drupal/background_image_formatter": "^2.0",
         "drupal/backup_migrate": "^5.0",
         "drupal/better_exposed_filters": "^7.0",
+        "drupal/bg_image_formatter": "^1.18",
         "drupal/bootstrap5": "^4.0",
         "drupal/colorbox": "^2.0",
-        "drupal/colorbox_media_video": "^2.0",
+        "drupal/colorbox_media_video": "2.1.x-dev@dev",
         "drupal/core-composer-scaffold": "^11",
         "drupal/core-project-message": "^11",
         "drupal/core-recommended": "^11",
@@ -32,6 +32,8 @@
         "drupal/field_redirection": "^2.2",
         "drupal/file_browser": "^2.0",
         "drupal/fitvids": "^2.0",
+        "drupal/focal_point": "^2.1",
+        "drupal/gin": "^5.0",
         "drupal/honeypot": "^2.1",
         "drupal/image_widget_crop": "^3.0",
         "drupal/insert_view": "^3.0",
@@ -42,6 +44,7 @@
         "drupal/klaro": "^3.0",
         "drupal/linkit": "^7.0",
         "drupal/mailchimp": "^3.0",
+        "drupal/manage_display": "^3.0",
         "drupal/metatag": "^2.1",
         "drupal/pathauto": "^1.12",
         "drupal/responsive_favicons": "^4.0",
@@ -76,6 +79,9 @@
     "extra": {
         "enable-patching": true,
         "patches": {
+            "drupal/bg_image_formatter": {
+                "Console error in views": "https://www.drupal.org/files/issues/2026-01-20/3525581-7.patch"
+              }
         },
         "drupal-scaffold": {
             "locations": {

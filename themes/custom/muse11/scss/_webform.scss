@@ -1,0 +1,154 @@
+.page-node-type-webform h1 {
+  text-align: center;
+}
+
+.page-node-type-webform article .field--name-body {
+  margin: 0 auto 60px;
+  text-align: center;
+}
+
+
+.field--name-webform {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+input.btn-primary {
+  padding: 8px 12px;
+}
+
+// Placeholder text
+.form-control::-webkit-input-placeholder	{color: rgba(255,255,255,0.5);} /* Chrome/Opera/Safari */
+.form-control::-moz-placeholder 					{color: rgba(255,255,255,0.5);} /* Firefox 19+ */
+.form-control:-ms-input-placeholder 			{color: rgba(255,255,255,0.5);} /* IE 10+ */
+.form-control:-moz-placeholder 						{color: rgba(255,255,255,0.5);} /* Firefox 18- */
+
+
+
+
+/****** OLD CSS ******/
+
+.form-group {
+	margin-bottom: 30px;
+}
+
+label {
+  font-family: $headings-font-family;
+  font-weight: $headings-font-weight;
+  text-transform: uppercase;
+  font-size: small;
+  letter-spacing: 2px;
+  background-color: inherit;
+
+	text-align: center;
+	margin-bottom: 30px;
+	width: 100%;
+}
+
+.form-control {
+	font-size: 20px;
+	line-height: 24px;
+	color: $white;
+	border: 1px solid rgba(255,255,255,0.25);
+	background-color: inherit;
+	border-radius: 15px;
+	box-shadow: inherit;
+	height: 44px;
+	padding: 10px 20px;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: none !important;
+  margin-bottom: 30px;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+	text-align: center;
+}
+
+.form-control:focus {
+  border-color: $white;
+  box-shadow: inherit;
+  outline: none;
+  background-color: inherit;
+  color: $white;
+}
+
+textarea.form-control {
+	resize: none;
+  height: 100px;
+}
+
+.has-error .form-control {
+	border-color: $white;
+}
+
+legend {
+	color: #fff;
+}
+
+
+
+// Help text
+.control-group .help-inline,
+.help-block {
+	color: #999;
+	font-size: 13px;
+	line-height: 17px;
+	text-transform: uppercase;
+	margin: 12px 0 12px 0;
+}
+
+
+// Select boxes
+.form-select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	overflow: hidden;
+}
+
+.form-select:focus {
+	color: #333;
+	color: rgba(0,0,0,0);
+	text-shadow: 0 0 0 #000;
+	outline: none;
+}
+
+select option {
+	color: #333 !important;
+	background-color: #fff !important;
+}
+
+
+// Contact page
+body.node-type-webform .main-content {
+	text-align: center;
+}
+
+a.btn i.fa-phone {
+	margin-right: 10px;
+}
+
+
+
+.g-recaptcha > div {
+	margin: 0 auto 30px;
+}
+
+
+// Forms in general
+form {
+	max-width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+}

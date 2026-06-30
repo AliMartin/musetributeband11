@@ -1,0 +1,43 @@
+a.read-more,
+a.btn,
+input.btn,
+body.page-node-type-show .field--name-field-link a,
+.crt-load-more-container button,
+#klaro .cn-buttons button,
+#klaro .cm-footer-buttons button,
+.views-field-view-node a,
+.btn-primary {
+  display: inline-flex;
+  justify-content: center;
+  font-size: 16px;
+  font-family: $headings-font-family;
+  font-weight: $headings-font-weight;
+  letter-spacing: 2px;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: rgba(0,0,0,0);
+  color: $white;
+  border: 2px solid $white;
+  border-radius: 0;
+
+  &:hover {
+    color: $black;
+    background-color: $white;
+    border: 2px solid $white;
+  }
+}
+
+#klaro .cn-buttons button,
+#klaro .cm-footer-buttons button {
+  color: $white;
+  background-color: $black;
+  border: 2px solid $black;
+  border-radius: 0;
+
+  &:hover {
+    color: $black;
+    background-color: $white;
+    border: 2px solid $black;
+  }
+}

@@ -1,0 +1,17 @@
+uuid: 4b9bb102-9421-4031-b58d-7a66aea9f0b4
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Background image'
+type: background_image
+description: '<em>Background images</em> are used throughout the site to add background artwork to key landing pages.'
+help: null
+new_revision: false
+preview_mode: 0
+display_submitted: false

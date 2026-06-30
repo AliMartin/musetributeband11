@@ -1,0 +1,22 @@
+uuid: b00c5560-6de4-4c83-9389-55398842aee1
+langcode: en
+status: true
+dependencies:
+  theme:
+    - muse11
+_core:
+  default_config_hash: 0_K5vCbLZyQkVHwYgG1TDLLuBz783ywc6jsuI9pmHLk
+id: muse11_local_tasks
+theme: muse11
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

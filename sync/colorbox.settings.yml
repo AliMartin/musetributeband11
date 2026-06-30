@@ -3,7 +3,7 @@ _core:
 langcode: en-gb
 dompurify_hide_warning: true
 custom:
-  style: stockholmsyndrome
+  style: plain
   activate: 0
   transition_type: elastic
   transition_speed: 350

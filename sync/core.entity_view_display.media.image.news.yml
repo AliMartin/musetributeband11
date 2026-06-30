@@ -1,0 +1,39 @@
+uuid: b25823e2-0303-4f2c-a02b-654adc7ae034
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.news
+    - field.field.media.image.field_media_image
+    - media.type.image
+    - responsive_image.styles.news
+  module:
+    - layout_builder
+    - responsive_image
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+_core:
+  default_config_hash: 73xaTNkI5J6sfFcBmNYeuk070X3mQS_iwwWaPYyfG2M
+id: media.image.news
+targetEntityType: media
+bundle: image
+mode: news
+content:
+  field_media_image:
+    type: responsive_image
+    label: hidden
+    settings:
+      responsive_image_style: news
+      image_link: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

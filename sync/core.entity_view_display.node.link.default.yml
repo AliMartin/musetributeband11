@@ -7,7 +7,7 @@ dependencies:
     - node.type.link
   module:
     - field_redirection
-    - user
+    - manage_display
 id: node.link.default
 targetEntityType: node
 bundle: link
@@ -29,5 +29,15 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
+  title:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: false
+      tag: h1
+    third_party_settings: {  }
+    weight: -49
+    region: content
 hidden:
-  langcode: true
+  created: true
+  uid: true

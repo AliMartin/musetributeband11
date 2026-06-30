@@ -1,0 +1,20 @@
+uuid: 57bc9fc9-a4a9-467d-9006-eb9ce2dc6762
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - responsive_menu
+  theme:
+    - muse11
+id: muse11_responsivemenumobileicon
+theme: muse11
+region: nav_main
+weight: 0
+provider: null
+plugin: responsive_menu_toggle
+settings:
+  id: responsive_menu_toggle
+  label: 'Responsive menu mobile icon'
+  label_display: '0'
+  provider: responsive_menu
+visibility: {  }

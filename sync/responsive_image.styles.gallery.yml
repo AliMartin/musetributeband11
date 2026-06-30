@@ -1,0 +1,45 @@
+uuid: 612661cc-4b52-4f32-a025-7fe14f54646a
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - image.style.1600x1000
+    - image.style.400x250
+    - image.style.800x500
+  theme:
+    - muse11
+id: gallery
+label: Gallery
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: 1600x1000
+    breakpoint_id: muse11.screen.xl-min
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: 1600x1000
+    breakpoint_id: muse11.screen.xl-min
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: 800x500
+    breakpoint_id: muse11.screen.md-min
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: 800x500
+    breakpoint_id: muse11.screen.md-min
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: 800x500
+    breakpoint_id: muse11.screen.sm-max
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: 800x500
+    breakpoint_id: muse11.screen.sm-max
+    multiplier: 2x
+breakpoint_group: muse11.screen
+fallback_image_style: 400x250

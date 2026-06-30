@@ -1,0 +1,22 @@
+uuid: c885800f-a1bb-4cd0-ac9d-fcd06bd29432
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_body_bottom
+    - node.type.views_page
+  module:
+    - text
+id: node.views_page.field_body_bottom
+field_name: field_body_bottom
+entity_type: node
+bundle: views_page
+label: 'Body bottom'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

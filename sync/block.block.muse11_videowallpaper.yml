@@ -1,0 +1,28 @@
+uuid: c8288a32-1557-4097-8b69-0ca09252494d
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3f8b1ded-a82d-486b-9a54-fcda4898408c'
+  module:
+    - block_content
+    - system
+  theme:
+    - muse11
+id: muse11_videowallpaper
+theme: muse11
+region: video_background
+weight: -6
+provider: null
+plugin: 'block_content:3f8b1ded-a82d-486b-9a54-fcda4898408c'
+settings:
+  id: 'block_content:3f8b1ded-a82d-486b-9a54-fcda4898408c'
+  label: 'Video wallpaper'
+  label_display: '0'
+  provider: block_content
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

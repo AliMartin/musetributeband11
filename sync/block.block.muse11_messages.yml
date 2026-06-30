@@ -1,0 +1,22 @@
+uuid: 70c751e9-679e-4e05-9f1e-ebb02d4ceb6e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - muse11
+_core:
+  default_config_hash: aE6Kn10ncjR7m4YAksHi01eZiwWPsCBpOfRhq9ppAds
+id: muse11_messages
+theme: muse11
+region: content
+weight: -8
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

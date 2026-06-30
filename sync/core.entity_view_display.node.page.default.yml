@@ -7,9 +7,9 @@ dependencies:
     - field.field.node.page.field_metatags
     - node.type.page
   module:
+    - manage_display
     - metatag
     - text
-    - user
 _core:
   default_config_hash: M_Y8L5tfmhx7DR143E05YyZSpvgil6VFvqcfBWykalg
 id: node.page.default
@@ -36,5 +36,15 @@ content:
     third_party_settings: {  }
     weight: 101
     region: content
+  title:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: false
+      tag: h1
+    third_party_settings: {  }
+    weight: -49
+    region: content
 hidden:
-  langcode: true
+  created: true
+  uid: true

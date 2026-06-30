@@ -52,13 +52,6 @@ content:
       render_theme: olivero
       render_view_mode: default
     third_party_settings: {  }
-  langcode:
-    type: language_select
-    weight: 1
-    region: content
-    settings:
-      include_locked: true
-    third_party_settings: {  }
   path:
     type: path
     weight: 6

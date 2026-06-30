@@ -13,9 +13,9 @@ dependencies:
   module:
     - datetime
     - link
+    - manage_display
     - metatag
     - text
-    - user
 id: node.show.default
 targetEntityType: node
 bundle: show
@@ -76,5 +76,15 @@ content:
     third_party_settings: {  }
     weight: 5
     region: content
+  title:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: false
+      tag: h1
+    third_party_settings: {  }
+    weight: -49
+    region: content
 hidden:
-  langcode: true
+  created: true
+  uid: true

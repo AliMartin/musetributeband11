@@ -9,6 +9,7 @@ dependencies:
     - contact
     - file
     - filter
+    - klaro
     - mailchimp_signup
     - media
     - search
@@ -27,6 +28,7 @@ permissions:
   - 'access site-wide contact form'
   - 'delete own files'
   - 'search content'
+  - 'use klaro'
   - 'use text format basic_html'
   - 'use text format webform_default'
   - 'view media'

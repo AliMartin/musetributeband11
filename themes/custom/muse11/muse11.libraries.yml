@@ -1,0 +1,9 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+jquery_isfunction_shim:
+  js:
+    js/jquery-isfunction-shim.js: {}
+  dependencies:
+    - core/jquery

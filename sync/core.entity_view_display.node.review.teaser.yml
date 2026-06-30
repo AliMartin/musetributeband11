@@ -5,7 +5,6 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.review.body
-    - field.field.node.review.field_wallpaper
     - node.type.review
   module:
     - text
@@ -28,6 +27,4 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
-hidden:
-  field_wallpaper: true
-  langcode: true
+hidden: {  }
