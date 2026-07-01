@@ -14463,12 +14463,21 @@ a > .ck-content code {
   }
   */
 }
-.ck-content body {
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-  min-height: 100dvh;
+@supports (-webkit-touch-callout: none) {
+  .ck-content body {
+    background-image: none !important;
+    background-attachment: scroll;
+  }
+  .ck-content body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background-image: var(--bg-image);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+  }
 }
 .ck-content .mm-page,
 .ck-content .mm-wrapper_background body {
