@@ -16044,27 +16044,50 @@ body.page-node-type-gallery .region-content .slick--optionset--thumbnails {
   color: #baa7ff;
 }
 
+body.page-node-type-views-page.page-url-shows .region-content .field--name-body,
+body.page-node-type-views-page.page-url-blog .region-content .field--name-body,
+body.page-node-type-views-page.page-url-gallery .region-content .field--name-body,
+body.page-node-type-views-page.page-url-media .region-content .field--name-body,
+body.page-node-type-views-page.page-url-video .region-content .field--name-body {
+  max-width: 850px;
+  margin: 0 auto 30px auto;
+}
 body.page-node-type-views-page.page-url-shows .region-content .field--name-title,
+body.page-node-type-views-page.page-url-blog .region-content .field--name-title,
 body.page-node-type-views-page.page-url-gallery .region-content .field--name-title,
 body.page-node-type-views-page.page-url-media .region-content .field--name-title,
 body.page-node-type-views-page.page-url-video .region-content .field--name-title {
-  border-radius: inherit;
-  border-left: none;
-  border-top: none;
-  border-right: none;
-  padding: none;
-  background-color: inherit;
-  -webkit-backdrop-filter: inherit;
-  backdrop-filter: inherit;
-  margin-bottom: 30px;
+  max-width: 850px;
+  margin: 0 auto 0 auto;
+}
+body.page-node-type-views-page.page-url-shows .region-content,
+body.page-node-type-views-page.page-url-blog .region-content,
+body.page-node-type-views-page.page-url-gallery .region-content,
+body.page-node-type-views-page.page-url-media .region-content,
+body.page-node-type-views-page.page-url-video .region-content {
+  /*
+  .field--name-title {
+    border-radius: inherit;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    padding: none;
+    background-color: inherit;
+    -webkit-backdrop-filter: inherit;
+    backdrop-filter: inherit;
+    margin-bottom: 30px;
+  }
+  */
 }
 body.page-node-type-views-page.page-url-shows .region-content .field--name-field-body-middle,
+body.page-node-type-views-page.page-url-blog .region-content .field--name-field-body-middle,
 body.page-node-type-views-page.page-url-gallery .region-content .field--name-field-body-middle,
 body.page-node-type-views-page.page-url-media .region-content .field--name-field-body-middle,
 body.page-node-type-views-page.page-url-video .region-content .field--name-field-body-middle {
   margin-bottom: 30px;
 }
 body.page-node-type-views-page.page-url-shows .region-content .field--name-field-body-bottom,
+body.page-node-type-views-page.page-url-blog .region-content .field--name-field-body-bottom,
 body.page-node-type-views-page.page-url-gallery .region-content .field--name-field-body-bottom,
 body.page-node-type-views-page.page-url-media .region-content .field--name-field-body-bottom,
 body.page-node-type-views-page.page-url-video .region-content .field--name-field-body-bottom {
@@ -16072,6 +16095,7 @@ body.page-node-type-views-page.page-url-video .region-content .field--name-field
   margin: 0 auto;
 }
 body.page-node-type-views-page.page-url-shows .region-content .field--name-field-body-bottom > p:first-of-type,
+body.page-node-type-views-page.page-url-blog .region-content .field--name-field-body-bottom > p:first-of-type,
 body.page-node-type-views-page.page-url-gallery .region-content .field--name-field-body-bottom > p:first-of-type,
 body.page-node-type-views-page.page-url-media .region-content .field--name-field-body-bottom > p:first-of-type,
 body.page-node-type-views-page.page-url-video .region-content .field--name-field-body-bottom > p:first-of-type {

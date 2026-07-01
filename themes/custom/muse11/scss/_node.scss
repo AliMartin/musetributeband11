@@ -155,6 +155,7 @@ body.page-node-type-views-page .region-content {
   border: inherit;
   text-align: center;
 
+
   .field--name-title,
   .field--name-body,
   .field--name-field-body-bottom {
@@ -224,11 +225,23 @@ body.page-node-type-gallery .region-content {
 
 // Video, Media and Gallery page overrides
 body.page-node-type-views-page.page-url-shows,
+body.page-node-type-views-page.page-url-blog,
 body.page-node-type-views-page.page-url-gallery,
 body.page-node-type-views-page.page-url-media,
 body.page-node-type-views-page.page-url-video {
   .region-content {
 
+    .field--name-body {
+      max-width: 850px;
+      margin: 0 auto 30px auto;
+    }
+
+    .field--name-title {
+      max-width: 850px;
+      margin: 0 auto 0 auto;
+    }
+
+    /*
     .field--name-title {
       border-radius: inherit;
       border-left: none;
@@ -240,6 +253,7 @@ body.page-node-type-views-page.page-url-video {
       backdrop-filter: inherit;
       margin-bottom: 30px;
     }
+    */
 
     .field--name-field-body-middle {
       margin-bottom: 30px;

@@ -14625,27 +14625,50 @@ a > .ck-content code {
 .ck-content .slick-arrow:hover::before {
   color: #baa7ff;
 }
+.ck-content body.page-node-type-views-page.page-url-shows .region-content .field--name-body,
+.ck-content body.page-node-type-views-page.page-url-blog .region-content .field--name-body,
+.ck-content body.page-node-type-views-page.page-url-gallery .region-content .field--name-body,
+.ck-content body.page-node-type-views-page.page-url-media .region-content .field--name-body,
+.ck-content body.page-node-type-views-page.page-url-video .region-content .field--name-body {
+  max-width: 850px;
+  margin: 0 auto 30px auto;
+}
 .ck-content body.page-node-type-views-page.page-url-shows .region-content .field--name-title,
+.ck-content body.page-node-type-views-page.page-url-blog .region-content .field--name-title,
 .ck-content body.page-node-type-views-page.page-url-gallery .region-content .field--name-title,
 .ck-content body.page-node-type-views-page.page-url-media .region-content .field--name-title,
 .ck-content body.page-node-type-views-page.page-url-video .region-content .field--name-title {
-  border-radius: inherit;
-  border-left: none;
-  border-top: none;
-  border-right: none;
-  padding: none;
-  background-color: inherit;
-  -webkit-backdrop-filter: inherit;
-  backdrop-filter: inherit;
-  margin-bottom: 30px;
+  max-width: 850px;
+  margin: 0 auto 0 auto;
+}
+.ck-content body.page-node-type-views-page.page-url-shows .region-content,
+.ck-content body.page-node-type-views-page.page-url-blog .region-content,
+.ck-content body.page-node-type-views-page.page-url-gallery .region-content,
+.ck-content body.page-node-type-views-page.page-url-media .region-content,
+.ck-content body.page-node-type-views-page.page-url-video .region-content {
+  /*
+  .field--name-title {
+    border-radius: inherit;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    padding: none;
+    background-color: inherit;
+    -webkit-backdrop-filter: inherit;
+    backdrop-filter: inherit;
+    margin-bottom: 30px;
+  }
+  */
 }
 .ck-content body.page-node-type-views-page.page-url-shows .region-content .field--name-field-body-middle,
+.ck-content body.page-node-type-views-page.page-url-blog .region-content .field--name-field-body-middle,
 .ck-content body.page-node-type-views-page.page-url-gallery .region-content .field--name-field-body-middle,
 .ck-content body.page-node-type-views-page.page-url-media .region-content .field--name-field-body-middle,
 .ck-content body.page-node-type-views-page.page-url-video .region-content .field--name-field-body-middle {
   margin-bottom: 30px;
 }
 .ck-content body.page-node-type-views-page.page-url-shows .region-content .field--name-field-body-bottom,
+.ck-content body.page-node-type-views-page.page-url-blog .region-content .field--name-field-body-bottom,
 .ck-content body.page-node-type-views-page.page-url-gallery .region-content .field--name-field-body-bottom,
 .ck-content body.page-node-type-views-page.page-url-media .region-content .field--name-field-body-bottom,
 .ck-content body.page-node-type-views-page.page-url-video .region-content .field--name-field-body-bottom {
@@ -14653,6 +14676,7 @@ a > .ck-content code {
   margin: 0 auto;
 }
 .ck-content body.page-node-type-views-page.page-url-shows .region-content .field--name-field-body-bottom > p:first-of-type,
+.ck-content body.page-node-type-views-page.page-url-blog .region-content .field--name-field-body-bottom > p:first-of-type,
 .ck-content body.page-node-type-views-page.page-url-gallery .region-content .field--name-field-body-bottom > p:first-of-type,
 .ck-content body.page-node-type-views-page.page-url-media .region-content .field--name-field-body-bottom > p:first-of-type,
 .ck-content body.page-node-type-views-page.page-url-video .region-content .field--name-field-body-bottom > p:first-of-type {
