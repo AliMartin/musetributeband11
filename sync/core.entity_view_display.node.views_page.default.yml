@@ -46,13 +46,6 @@ content:
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 6
-    region: content
-  field_metatags:
-    type: metatag_empty_formatter
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
     weight: 5
     region: content
   field_yoast_seo:
@@ -60,7 +53,7 @@ content:
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 7
+    weight: 6
     region: content
   links:
     settings: {  }
@@ -78,4 +71,5 @@ content:
     region: content
 hidden:
   created: true
+  field_metatags: true
   uid: true
