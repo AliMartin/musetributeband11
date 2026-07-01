@@ -4,8 +4,7 @@
       if (context !== document) {
         return;
       }
-      var bodyStyle = window.getComputedStyle(document.body);
-      var bgImage = bodyStyle.backgroundImage;
+      var bgImage = window.getComputedStyle(document.body).backgroundImage;
       if (bgImage && bgImage !== 'none') {
         document.body.style.setProperty('--bg-image', bgImage);
       }

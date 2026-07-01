@@ -16,10 +16,8 @@
 // iOS Safari fix: background-attachment:fixed + cover doesn't size correctly.
 // Replace with a genuinely fixed pseudo-element instead.
 @supports (-webkit-touch-callout: none) {
-  body {
-    background-image: none !important;
-    background-attachment: scroll; // no longer relevant, but keep it harmless
-  }
+  // Don't touch body's own background-image — leave it as-is.
+  // It'll be fully hidden behind the pseudo-element below.
 
   body::before {
     content: '';

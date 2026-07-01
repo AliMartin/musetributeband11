@@ -14464,10 +14464,6 @@ a > .ck-content code {
   */
 }
 @supports (-webkit-touch-callout: none) {
-  .ck-content body {
-    background-image: none !important;
-    background-attachment: scroll;
-  }
   .ck-content body::before {
     content: "";
     position: fixed;

@@ -15876,10 +15876,6 @@ body.page-node-type-show .field--name-field-link a:hover,
 }
 */
 @supports (-webkit-touch-callout: none) {
-  body {
-    background-image: none !important;
-    background-attachment: scroll;
-  }
   body::before {
     content: "";
     position: fixed;
