@@ -53,7 +53,7 @@
         "drupal/slick_views": "^3.0",
         "drupal/webform": "^6.3",
         "drupal/xmlsitemap": "^2.0",
-        "drupal/yoast_seo": "^2.2",
+        "drupal/yoast_seo": "1.x-dev@dev",
         "drush/drush": "^13",
         "oomphinc/composer-installers-extender": "^2.0"
     },
