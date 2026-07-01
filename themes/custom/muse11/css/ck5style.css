@@ -14475,6 +14475,10 @@ a > .ck-content code {
     background-size: cover;
   }
 }
+.ck-content html, .ck-content body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
 .ck-content .mm-page,
 .ck-content .mm-wrapper_background body {
   background-color: initial;

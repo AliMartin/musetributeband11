@@ -15887,6 +15887,11 @@ body.page-node-type-show .field--name-field-link a:hover,
     background-size: cover;
   }
 }
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 .mm-page,
 .mm-wrapper_background body {
   background-color: initial;
